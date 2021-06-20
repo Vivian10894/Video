@@ -40,8 +40,8 @@
   border-top: solid 1px;
   transform: rotate(90deg);
   position: fixed;
-  right: 60px;
-  top: 327px;
+  right: 65px;
+  top: 315px;
   background-color:rgba(0,0,0,0);
 }
 .beauty {
@@ -53,12 +53,12 @@
 .num {
   position: fixed;
   right: 29px;
-  top: 316px;
+  top: 300px;
 }
 .tit {
   position: fixed;
   right: 12px;
-  top: 533px;
+  top: 525px;
 }
 .video_list {
   padding: 20px;
