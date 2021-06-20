@@ -1,0 +1,91 @@
+* {
+  background-color:GhostWhite
+;
+  \\border: solid 1px;\\
+}
+.title_v {
+  position: relative;
+  text-align: center;
+  top: 0;
+  font-family: "Montserrat";
+  font-size: 28px;
+  color: #333;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  opacity: 0;
+  animation-name: videoIn;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+}
+@keyframes videoIn {
+  from {
+    opacity: 0;
+    top: 30px;
+  }
+  to {
+    opacity: 1;
+    top: 0px;
+  }
+}
+.Logo {
+  margin: 30px;
+}
+.vi {
+  padding: 50px;
+}
+.link {
+  width: 150px;
+  height: 30%;
+  border-top: solid 1px;
+  transform: rotate(90deg);
+  position: fixed;
+  right: 60px;
+  top: 327px;
+  background-color:rgba(0,0,0,0);
+}
+.beauty {
+  transform: rotate(90deg);
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  font-size: 10px;
+}
+.num {
+  position: fixed;
+  right: 29px;
+  top: 316px;
+}
+.tit {
+  position: fixed;
+  right: 12px;
+  top: 533px;
+}
+.video_list {
+  padding: 20px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  width: auto;
+  height: 500px;
+  margin: 50px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  z-index:9999;
+}
+li {
+  box-sizing: border-box;
+  height: 200px;
+  width: 200px;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-right: 40px;
+  line-height: 100px;
+  text-align: center;
+  list-style: none;
+  border: 5px solid #ccc;
+}
+li:hover{
+  transform:scale(110%);
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
